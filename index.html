@@ -4,10 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-    <script type="text/javascript" src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+    <script type="text/javascript" src="script.js" defer></script>
+     <link rel="stylesheet" href="style.css">
+
   </head>
-  <body style="color: white; background-color: #282c34">
-    <h1>Type "game()" in the console to play.</h1>
+  <body>
+	  <header>
+		  <p class="rock">rock</p> <p class="paper">paper</p> <p class="scissors">scissors</p>
+	  </header>
+	  <main>
+    <div class='container'>
+	<div class="box" onclick="getPlayerChoice(this,'rock')">
+		    🪨
+	    </div>
+	    <div class="box" onclick="getPlayerChoice(this,'paper')" >
+		    📜
+	    </div>
+	    <div class="box" onclick="getPlayerChoice(this,'scissors')">
+		    ✂️
+	    </div>
+    </div>
+    <div class="container">
+	    <p class="pScore score">0</p>
+	    <p class="score">vs</p>
+	    <p class="cScore score">0</p>
+    </div>
+    <div class="container">
+	    <div class="box pChoice">
+		    ?
+	    </div>
+	    <div class="box cChoice" >
+		    ?
+	    </div>
+    </div>
+    <div class="roundScore score">Choose one of the icons.</div>
+
+    <div class="gameEnd">
+	    <div class="gameEndContainer">
+        <div class="button"><p class="nextGame" onclick="nextGame()">Next Game</p></div>
+  
+        <div class="gameScore"></div>
+	    </div>
+    </div>
+    </div>
+
+	  </main>
+   <footer>
+	  Copyleft <span style="display:inline-block; transform: scaleX(-1);">©</span> Pawys
+
+   </footer>
   </body>
 </html>
+
