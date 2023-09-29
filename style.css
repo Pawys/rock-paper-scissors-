@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  font-family: "Courier New", monospace;
+  font-family: 'Lato', sans-serif;
 }
 body {
   background-color: #282a36;
@@ -52,15 +52,17 @@ main {
 }
 
 .box {
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Color Emoji', sans-serif;
   background-color: #282a36;
-  font-family: sans-serif;
   justify-content: center;
   height: 150px;
   width: 150px;
   border: 4px solid;
   border-color: #44475a;
   text-align: center;
-  font-size: 125px;
+  font-size: 115px;
   user-select: none;
 }
 .box:hover {
