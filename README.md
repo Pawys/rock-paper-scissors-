@@ -3,7 +3,7 @@ This is the rock paper sccissors project from the (amazing) [The Odin Project cu
 
 This is a rock paper sccissors game made with javascript, it featurs rounds, colorful icons, a score system and more.
 
-![Screenshot](screenshots/rock-paper-sccissors.png)
+![Screenshot](screenshots/rock-paper-scissors.png)
 # Skills
 ### After completing it, I learned:
 Modyfying the DOM in javascript.
